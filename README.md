@@ -49,7 +49,7 @@ This Breadboard project demonstrates how to create a simple electronic dice game
 
 
 
-![Raspberrypi-gpio-pinouts](https://github.com/user-attachments/assets/f651e3a7-0ab0-4694-a96e-1dcd8e9cbdd2)
+![Raspberrypi-gpio-pinouts](https://github.com/user-attachments/assets/f651e3a7-0ab0-4694-a96e-1dcd8e9cbdd2) [^1]
 
 
 
@@ -57,7 +57,7 @@ This Breadboard project demonstrates how to create a simple electronic dice game
 #### Step 4
 - Ground out your connection by using 3 Male to Female Jumper wires from the negative rails on both sides of the Breadboard, and above the top left point of the Push Button (next to where the GPIO wire is connected) to 3 of the ground pins on the Raspberry Pi.
 
-![DSC_0498.JPG](Images/DSC_0498)
+![DSC_0498.JPG](Images/DSC_0498.JPG)
 
 
 #### Step 5 
@@ -123,7 +123,7 @@ while True:
 	- Follow the commands and syntax from the image below to execute the Python3 Script for the Dice Game. When you see the text "Press the button to roll the dice!" on the command line, press the button to start the game. 
 	- Press `CTRL+C` to kill the Python Script. 
 
-![dice-game-exec](Images/dicegame-script-exec.png) [^1]
+![dice-game-exec](Images/dicegame-script-exec.png)
 
 
 
