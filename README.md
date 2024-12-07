@@ -115,13 +115,15 @@ while True:
     sleep(0.5)  # Debounce delay
 ```
 
+[^2] [^3]
+
 #### Step 6
 - Executing the code within the Terminal on the Raspberry Pi
 	- Boot up the Raspberry Pi and log in to access the Terminal on the Raspberry Pi OS. 
 	- Follow the commands and syntax from the image below to execute the Python3 Script for the Dice Game. When you see the text "Press the button to roll the dice!" on the command line, press the button to start the game. 
 	- Press `CTRL+C` to kill the Python Script. 
 
-![dice-game-exec](Images/dicegame-script-exec.png)
+![dice-game-exec](Images/dicegame-script-exec.png) [^1]
 
 
 
@@ -137,8 +139,11 @@ while True:
 
 
 
-Work Cited 
-https://www.raspberrypi.com/documentation/computers/raspberry-pi.html
+	## Work Cited 
+[^1]: Raspberry Pi Official Website (2023) https://www.raspberrypi.com/documentation/computers/raspberry-pi.html
+[^2]: Code Help, (2024) https://www.instructables.com/Electronic-Dice-Raspberry-Pi-Pico/
+[^3]: Code Help, (2024) https://www.learnrobotics.org/blog/cool-arduino-projects-arduino-dice-simulation/
+
 
 
 
