@@ -16,7 +16,7 @@ This Breadboard project demonstrates how to create a simple electronic dice game
 #### Step 1 
 - Insert the Seven LED's into the bread board, make sure that the positive Anode leg (longer) is facing to the right side of the board for a correct orientation. Reference to the image below to also orient the LED's in a Honeycomb Pattern, with 5 LED's above the ridge between the breadboard and 2 LED's below the Ridge. This is so that resistors can be connected to the same trace as the LED's.
 
- !{DSC_0495](Images/DSC_0495.JPG)
+ ![DSC_0495](Images/DSC_0495.JPG)
 
 
 #### Step 2
@@ -43,9 +43,15 @@ This Breadboard project demonstrates how to create a simple electronic dice game
 	- LED 7 -> GPIO 6
 - Wire up your Push Button to GPIO 14. It is recommended to color code your wires to Identify which ones are connected to which GPIO pin. In this exact order will help with the number patterns that will be illumated by the 7 LEDs on the Breadboard to simulate a Dice roll.
 
+
+
 ![DSC0497](Images/DSC_0497.JPG)
 
+
+
 ![Raspberrypi-gpio-pinouts](https://github.com/user-attachments/assets/f651e3a7-0ab0-4694-a96e-1dcd8e9cbdd2)
+
+
 
 
 #### Step 4
@@ -115,7 +121,7 @@ while True:
 	- Follow the commands and syntax from the image below to execute the Python3 Script for the Dice Game. When you see the text "Press the button to roll the dice!" on the command line, press the button to start the game. 
 	- Press `CTRL+C` to kill the Python Script. 
 
-[dice-game-exec](Images/dicegame-script-exec.png)
+![dice-game-exec](Images/dicegame-script-exec.png)
 
 
 
