@@ -27,8 +27,11 @@ file:///home/schooner/Documents/ACC-HW/DSC_0496.JPG
 
 
 #### Step 3 
--  Use 8 Male to Female jumper wires to connect the LEDs to the GPIO pins on the Raspberry Pi. Each LED corresponds to a GPIO number on the pinout, Please see the pictures below for reference.   
-> [!danger] Do NOT connect the Raspberry Pi to power when connecting jumper wires from the Breadboard!
+-  Use 8 Male to Female jumper wires to connect the LEDs to the GPIO pins on the Raspberry Pi. Each LED corresponds to a GPIO number on the pinout, Please see the pictures below for reference.
+    
+> [!WARNING] Do NOT connect the Raspberry Pi to power when connecting jumper wires from the Breadboard!
+
+
 - Wire up the LEDs 1-7 to The GPIOs in this exact order: 
 	- LED 1 -> GPIO 2
 	- LED 2 -> GPIO 0 
