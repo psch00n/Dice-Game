@@ -16,20 +16,21 @@ This Breadboard project demonstrates how to create a simple electronic dice game
 #### Step 1 
 - Insert the Seven LED's into the bread board, make sure that the positive Anode leg (longer) is facing to the right side of the board for a correct orientation. Reference to the image below to also orient the LED's in a Honeycomb Pattern, with 5 LED's above the ridge between the breadboard and 2 LED's below the Ridge. This is so that resistors can be connected to the same trace as the LED's.
 
- file:///home/schooner/Documents/ACC-HW/DSC_0495.JPG
+ !{DSC_0495](Images/DSC_0495.JPG)
 
 
 #### Step 2
 - Insert the 7 Resistors (anything from 330 to 1000 Ohms) on one end lining up to the left leg (Cathode leg) of each LED. Connect the other end of the Resistor to the Negative rails of the Breadboard. The negative rails are located at the edges of the board indicated by a blue line and a negative symbol (-) next to the pin holes. 
 - Insert a 12x12mm Push Button next to the breadboard either above or below the ridge on the breadboard (preferably close to the LEDs).
 
-file:///home/schooner/Documents/ACC-HW/DSC_0496.JPG
+![DSC_0496](Images/DSC_0496.jpg)
 
 
 #### Step 3 
 -  Use 8 Male to Female jumper wires to connect the LEDs to the GPIO pins on the Raspberry Pi. Each LED corresponds to a GPIO number on the pinout, Please see the pictures below for reference.
     
-> [!WARNING] Do NOT connect the Raspberry Pi to power when connecting jumper wires from the Breadboard!
+> [!WARNING]
+> Do NOT connect the Raspberry Pi to power when connecting jumper wires from the Breadboard!
 
 
 - Wire up the LEDs 1-7 to The GPIOs in this exact order: 
@@ -42,7 +43,7 @@ file:///home/schooner/Documents/ACC-HW/DSC_0496.JPG
 	- LED 7 -> GPIO 6
 - Wire up your Push Button to GPIO 14. It is recommended to color code your wires to Identify which ones are connected to which GPIO pin. In this exact order will help with the number patterns that will be illumated by the 7 LEDs on the Breadboard to simulate a Dice roll.
 
-file:///home/schooner/Documents/ACC-HW/DSC_0497.JPG
+![DSC0497](Images/DSC_0497.JPG)
 
 ![Raspberrypi-gpio-pinouts](https://github.com/user-attachments/assets/f651e3a7-0ab0-4694-a96e-1dcd8e9cbdd2)
 
@@ -50,7 +51,7 @@ file:///home/schooner/Documents/ACC-HW/DSC_0497.JPG
 #### Step 4
 - Ground out your connection by using 3 Male to Female Jumper wires from the negative rails on both sides of the Breadboard, and above the top left point of the Push Button (next to where the GPIO wire is connected) to 3 of the ground pins on the Raspberry Pi.
 
-file:///home/schooner/Documents/ACC-HW/DSC_0498.JPG
+![DSC_0498.JPG](Images/DSC_0498)
 
 
 #### Step 5 
@@ -114,8 +115,7 @@ while True:
 	- Follow the commands and syntax from the image below to execute the Python3 Script for the Dice Game. When you see the text "Press the button to roll the dice!" on the command line, press the button to start the game. 
 	- Press `CTRL+C` to kill the Python Script. 
 
-
-file:///home/schooner/Documents/ACC-HW/dicegame-script-exec.png
+[dice-game-exec](Images/dicegame-script-exec.png)
 
 
 
