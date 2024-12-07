@@ -1,6 +1,6 @@
 ## Introduction
 
-This Breadboard project demonstrates how to create a simple electronic dice game using a Raspberry Pi and a breadboard. The device simulates rolling two dice, providing a digital alternative to traditional physical dice. It's an excellent project for beginners learning about Raspberry Pi, GPIO programming, and basic electronics. The electronic dice can be used for board games, educational purposes, or as a fun way to make random selections.
+This Breadboard project demonstrates how to create a simple electronic dice game using a Raspberry Pi and a breadboard. The components on the breadboard simulates rolling a singular die, providing a digital alternative to traditional physical dice. It's an excellent project for beginners learning about Raspberry Pi, GPIO programming, and basic electronics. The electronic dice can be used for board games, or as a fun way to make random selections. In this Readme I will walk through Six steps of how you can create your own Dice Game at home. 
 
 ## Components
 
@@ -126,20 +126,14 @@ while True:
 ![dice-game-exec](Images/dicegame-script-exec.png)
 
 
+## Conclusion 
+- With all these steps completed, you are finally done with making your own dice game! As this is a prototype, feel free to add or edit any changes you want to implement to make this more of an easier or cleaner build for this concept. If you want to see the game in action, click on the link below to see how it works in real time.
 
 
 
 
 
-
-
-
-
-
-
-
-
-	## Work Cited 
+## References 
 [^1]: Raspberry Pi Official Website (2023) https://www.raspberrypi.com/documentation/computers/raspberry-pi.html
 [^2]: Code Help, (2024) https://www.instructables.com/Electronic-Dice-Raspberry-Pi-Pico/
 [^3]: Code Help, (2024) https://www.learnrobotics.org/blog/cool-arduino-projects-arduino-dice-simulation/
