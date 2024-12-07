@@ -130,7 +130,7 @@ while True:
 ## Conclusion 
 - With all these steps completed, you are finally done with making your own dice game! As this is a prototype, feel free to add or edit any changes you want to implement to make this more of an easier or cleaner build for this concept. If you want to see the game in action, click on the link below to see how it works in real time.
 
-![Dice Game Showcase](https://drive.google.com/file/d/1L5ZW87-DnQ92bOQuGJ3JHiwrbN15Z3Kz/view?usp=sharing)
+![Dice Game Showcase](https://www.youtube.com/watch?v=g1XpBMMmkMk)
 
 ## References 
 [^1]: Raspberry Pi Official Website (2023) https://www.raspberrypi.com/documentation/computers/raspberry-pi.html
