@@ -23,7 +23,7 @@ This Breadboard project demonstrates how to create a simple electronic dice game
 - Insert the 7 Resistors (anything from 330 to 1000 Ohms) on one end lining up to the left leg (Cathode leg) of each LED. Connect the other end of the Resistor to the Negative rails of the Breadboard. The negative rails are located at the edges of the board indicated by a blue line and a negative symbol (-) next to the pin holes. 
 - Insert a 12x12mm Push Button next to the breadboard either above or below the ridge on the breadboard (preferably close to the LEDs).
 
-![DSC_0496](Images/DSC_0496.jpg)
+![DSC_0496](Images/DSC_0496.JPG)
 
 
 #### Step 3 
